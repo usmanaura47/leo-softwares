@@ -1,0 +1,17 @@
+#c-white {
+	color: white;
+}
+
+.c-red {
+	color: red;
+}
+
+.c-style {
+	display: none;
+}
+
+#leo-img {
+	height: 7rem; 
+	width: 30rem; 
+	margin: auto;
+}
