@@ -520,7 +520,7 @@ table th {
 }
 
 .has-text-centered {
-  text-align: center;
+  text-align: center; margin: auto;
 }
 
 .has-text-left {
