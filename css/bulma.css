@@ -499,7 +499,8 @@ table th {
 }
 
 .centerme {
-	width: 100%;
+	display: block;
+    margin: auto;
 	text-align: center !important;
 }
 
