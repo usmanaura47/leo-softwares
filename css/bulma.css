@@ -498,6 +498,11 @@ table th {
   text-align: center !important;
 }
 
+.centerme {
+	width: 100%;
+	text-align: center !important;
+}
+
 .has-text-left {
   text-align: left !important;
 }
