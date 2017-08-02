@@ -61,7 +61,11 @@ Happy Hacking!
 			});
 			
 			$(document).ready(function() {  
-				$("html").niceScroll();
+				$("html").niceScroll({
+					cursorwidth: "8px",
+					cursorminheight: "140",
+					horizrailenabled: false
+				});
 			});
 			
 			$('#downwego').click(function(){
