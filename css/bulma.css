@@ -496,6 +496,8 @@ table th {
 
 .has-text-centered {
   text-align: center !important;
+  text-align: -moz-center;
+  text-align: -webkit-center;
 }
 
 .centerme {
