@@ -70,6 +70,14 @@ Happy Hacking!
 			$('#downwego').click(function(){
 				$.fn.fullpage.moveSectionDown(); 
 			});
+			
+			$('#mce-error-response').click(function(){
+				$(this).hide();
+			});
+			
+			$('#mce-success-response').click(function(){
+				$(this).hide();
+			});
 		});
 	</script>
 </head>
@@ -404,8 +412,8 @@ Happy Hacking!
 											</div>
 										</div>
 										<div id="mce-responses">
-												<div class="message-body response notification is-warning c-style" id="mce-error-response"></div>
-												<div class="message-body response notification is-success c-style delete" id="mce-success-response"></div>
+												<div class="response notification is-warning c-style" id="mce-error-response"></div>
+												<div class="response notification is-success c-style" id="mce-success-response"></div>
 										</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
 										<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_edf9a085c910dede9a9bdc904_8b0a5e80f9" tabindex="-1" value=""></div>
 									</div>
