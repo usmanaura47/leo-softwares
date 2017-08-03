@@ -11,19 +11,9 @@
 }
 
 #leo-img {
-	height: 7rem; 
-	width: 30rem; 
+	height: 6rem; 
+	width: 25rem; 
 	margin: auto;
-}
-
-#preloader {
-	position: fixed;
-	left: 0px;
-	top: 0px;
-	width: 100%;
-	height: 100%;
-	z-index: 99999;
-	background: url('/images/preloader.gif') center no-repeat #fff;
 }
 
 .pageloader {
