@@ -53,6 +53,7 @@
   border: 3px solid rgba(255, 255, 255, 0.75);
   -webkit-animation: page-loader-inner 1.5s infinite ease-out;
   animation: page-loader-inner 1.5s infinite ease-out;
+  content: "Loading...";
 }
 .pageloader::before {
   margin-top: -30px;
