@@ -45,6 +45,10 @@ Happy Hacking!
 	<script src="/js/nicescroll.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function() {
+			$(window).load(function(){
+				$('#preloader').fadeOut('slow',function(){$(this).remove();});
+			});
+		
 			$('#fullpage').fullpage({
 				anchors: ['home', 'whoarewe', 'projects', 'team', 'contact'],
 				navigation: true,
