@@ -22,4 +22,5 @@
     background: url('/images/preloader.gif') center no-repeat #FFF;
     z-index: 99999;
     position: fixed;
+	background-color: #00d1b2;
 }
