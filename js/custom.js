@@ -23,11 +23,6 @@ $(document).ready(function() {
 			cursorminheight: "140",
 			horizrailenabled: false
 		});
-		$(".pageloader").niceScroll({
-			cursorwidth: "8px",
-			cursorminheight: "140",
-			horizrailenabled: false
-		});
 	});
 			
 	$('#downwego').click(function(){
