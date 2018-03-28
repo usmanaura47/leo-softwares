@@ -1,7 +1,4 @@
 $(document).ready(function() {
-	$(window).load(function(){
-		$('.pageloader').fadeOut('slow',function(){$(this).remove();});
-	});
 	
 	$('#fullpage').fullpage({
 		anchors: ['home', 'whoarewe', 'projects', 'team', 'contact'],
