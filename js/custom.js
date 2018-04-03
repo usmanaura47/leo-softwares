@@ -2,7 +2,7 @@ $(document).ready(function() {
 	
 	$(window).on("load", function() {
 		$(".pageloader").fadeOut("slow");
-	}
+	});
 	
 	$('#fullpage').fullpage({
 		anchors: ['home', 'whoarewe', 'projects', 'team', 'contact'],
