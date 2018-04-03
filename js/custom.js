@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	
-	$(window).on(‘load’, function() {
-		$(“.pageloader”).fadeOut(“slow”);
+	$(window).on("load", function() {
+		$(".pageloader").fadeOut("slow");
 	}
 	
 	$('#fullpage').fullpage({
