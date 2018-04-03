@@ -1,5 +1,9 @@
 $(document).ready(function() {
 	
+	$(window).on(‘load’, function() {
+		$(“.pageloader”).fadeOut(“slow”);
+	}
+	
 	$('#fullpage').fullpage({
 		anchors: ['home', 'whoarewe', 'projects', 'team', 'contact'],
 		navigation: true,
@@ -14,12 +18,10 @@ $(document).ready(function() {
 		touchSensitivity: 15
 	});
 			
-	$(document).ready(function() {  
-		$("html").niceScroll({
-			cursorwidth: "8px",
-			cursorminheight: "140",
-			horizrailenabled: false
-		});
+	$("html").niceScroll({
+		cursorwidth: "8px",
+		cursorminheight: "140",
+		horizrailenabled: false
 	});
 			
 	$('#downwego').click(function(){
