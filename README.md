@@ -14,7 +14,7 @@ To view live website click [here](http://leosoftwares4u.tk)
 
 ```
 # clone the project
-git clone https://github.com/usmanaura47/leo-softwares.git
+git clone https://github.com/usmanaura47/leo-softwares-site.git
 ```
 
 ## Contributions
