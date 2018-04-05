@@ -1,0 +1,9 @@
+#js-error {
+	text-align: center;
+	color: red;
+	font-weight: bold;
+}
+
+.pageloader {
+		display: none;
+}
